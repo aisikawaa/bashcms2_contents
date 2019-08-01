@@ -3,13 +3,13 @@ Kyewords: ネギ
 Copyright: (C) 2019 Atsushi Ishikawa
 ---
 
-#ネギの惑星
+# ネギの惑星
 
 ララーメンラーメン！　ラーメンラーメン！　ラーメンラーメン！　ーメンラーメン！　
 
 * [白ネギへジャンプ]　(#white)
 
-##青ネギ
+## 青ネギ
 
 ![青ネギ](./green_negi.jpg)
 
