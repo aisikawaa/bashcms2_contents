@@ -19,4 +19,4 @@ Copyright: (C) 2019 Atsushi Ishikawa
 
 ## ドキュメント
 [ねぎ.pdf](ねぎ.pdf)
-[Wikipedia](https://ja.wikiped.org/wiki/%E3%83%8D%E3%82%AE)
+[Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%8D%E3%82%AE)
