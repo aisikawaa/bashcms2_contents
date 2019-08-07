@@ -1,9 +1,9 @@
 ---
-Kyewords: ネギ
+Keywords: ネギ
 Copyright: (C) 2019 Atsushi Ishikawa
 ---
 
-# ネギの惑星
+# ネギの惑星!
 
 ラーメンラーメン！　ラーメンラーメン！　ラーメンラーメン！　ラーメンラーメン！　
 
