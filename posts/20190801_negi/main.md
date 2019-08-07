@@ -7,13 +7,13 @@ Copyright: (C) 2019 Atsushi Ishikawa
 
 ラーメンラーメン！　ラーメンラーメン！　ラーメンラーメン！　ラーメンラーメン！　
 
-* [白ネギへジャンプ](#white)
+* [白髪ネギへジャンプ](#white)
 
 ## 青ネギ
 
 ![青ネギ](./green_negi.jpg)
 
-## <span id="white">白ネギ</span>
+## <span id="white">白髪ネギ</span>
 
 ![](white_negi.jpg)
 
