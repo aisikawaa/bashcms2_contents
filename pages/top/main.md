@@ -1,5 +1,5 @@
 ---
-Keywords: bashcms2, bash
+Keywords: bashcms2, b@sh
 Copyright: (C) 2019 Atsushi Ishikawa
 ---
 
