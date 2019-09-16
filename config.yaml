@@ -3,5 +3,10 @@ links:
   href: '/?page=top'
 - text: '開発日誌（ブログ）'
   href: '/?post'
-- text: '旧bashcms'
-  href: 'http://test.usptomo.com'
+- text: '外部サイト'
+  href: './'
+  sublinks:
+  - text: '旧サイト'
+    href: './'
+  - text: '作者ブログ'
+    href: 'https://shirokuma-tech.com'
