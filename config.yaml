@@ -10,3 +10,6 @@ links:
     href: 'http://test.usptomo.com/'
   - text: '作者ブログ'
     href: 'https://b.ueda.tech/'
+sociallinks:
+- icon: 'fa-twiter-square'
+  href: 'https://twitter.com/aswzjd'
