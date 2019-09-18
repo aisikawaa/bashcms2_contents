@@ -1,6 +1,6 @@
 ---
 Keywords: bashcms2, bash
-Copyright: (C) 2019 shirokums-tech.com
+Copyright: (C) 2019 shirokuma-tech.com
 ---
 
 # bashcms2
