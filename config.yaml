@@ -1,9 +1,9 @@
 links:
 - text: 'top'
   href: '/?page=top'
-- text: '開発日誌（ブログ）'
-  href: '/?post=about'
 - text: 'このサイトについて'
+  href: '/?post=about'
+- text: 'hohoge'
   href: './'
   sublinks:
   - text: '旧サイト'
