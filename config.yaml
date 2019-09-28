@@ -1,15 +1,15 @@
 links:
-- text: 'top'
+- text: 'トップページ'
   href: '/?page=top'
 - text: 'このサイトについて'
   href: '/?page=about'
-- text: 'hohoge'
+- text: 'メニュー'
   href: './'
   sublinks:
-  - text: '旧サイト'
-    href: 'http://test.usptomo.com/'
-  - text: '作者ブログ'
-    href: 'https://b.ueda.tech/'
+  - text: '工事中'
+    href: './'
+  - text: '工事中'
+    href: './'
 sociallinks:
 - icon: 'fa-twitter-square'
   href: 'https://twitter.com/aswzjd'
