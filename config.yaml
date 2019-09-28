@@ -2,7 +2,7 @@ links:
 - text: 'top'
   href: '/?page=top'
 - text: 'このサイトについて'
-  href: '/?post=about'
+  href: '/?page=about'
 - text: 'hohoge'
   href: './'
   sublinks:
