@@ -2,8 +2,8 @@ links:
 - text: 'top'
   href: '/?page=top'
 - text: '開発日誌（ブログ）'
-  href: '/?post'
-- text: '外部サイト'
+  href: '/?post=about'
+- text: 'このサイトについて'
   href: './'
   sublinks:
   - text: '旧サイト'
