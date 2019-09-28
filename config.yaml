@@ -1,3 +1,7 @@
+protocol: 'https:'
+host: 'shirokima-tech.com'
+sitetitle: 'しろくまの雑記帳'
+sitesubtitle: '個人的な備忘録です。'
 links:
 - text: 'トップページ'
   href: '/?page=top'
