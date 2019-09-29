@@ -3,8 +3,6 @@ host: 'shirokuma-tech.com'
 sitetitle: 'しろくまの雑記帳'
 sitesubtitle: '個人的な備忘録です。'
 links:
-- text: 'トップページ'
-  href: '/?page=top'
 - text: 'このサイトについて'
   href: '/?page=about'
 - text: 'メニュー'
