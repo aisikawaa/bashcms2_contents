@@ -11,7 +11,7 @@ Copyright: (C) 2019 しろくまの雑記帳
   (上田 隆一、後藤 大地 著)をご覧ください。  
   また、著者のご両名には厚くお礼を申し上げます。ありがとうございます。  
 * このサイトはBootstrapのサンプル「Jumbotron」を使用しています。  
-  Bootstrapは[MIT](https://github.com/twbs/bootstrap/blob/master/LICENSE)ライセンスと[CC BY 3.0](https://creativecommons.org/licences/by/3.0/)  
+  Bootstrapは[MIT](https://github.com/twbs/bootstrap/blob/master/LICENSE)ライセンスと[CC BY 3.0](https://creativecommons.org/licences/by/3.0/)
   によって配布されています。  
   
 ___
