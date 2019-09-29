@@ -1,6 +1,6 @@
 ---
-Keywords: bashcms2, bash
-Copyright: (C) 2019 shirokuma-tech.com
+Keywords: トップページ
+Copyright: (C) 2019 しろくまの雑記帳
 ---
 
 # トップページ
