@@ -8,8 +8,8 @@ links:
 - text: 'メニュー'
   href: './'
   sublinks:
-  - text: '工事中'
-    href: './'
+  - text: 'htb'
+    href: '/?posts=htb'
   - text: '工事中'
     href: './'
 sociallinks:
