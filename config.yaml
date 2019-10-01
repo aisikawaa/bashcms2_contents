@@ -9,7 +9,7 @@ links:
   href: './'
   sublinks:
   - text: 'htb'
-    href: '/?post=htb'
+    href: '/?page=htb'
   - text: '工事中'
     href: './'
 sociallinks:
