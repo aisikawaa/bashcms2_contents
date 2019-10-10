@@ -1,5 +1,5 @@
 ---
-Keywords: nmap cheatsheet
+Keywords: nmap, cheatsheet
 Copyright: (C) 2019 しろくまの雑記帳
 ---
 
