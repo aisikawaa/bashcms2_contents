@@ -187,6 +187,7 @@ Copyright: (C) 2019 しろくまの雑記帳
 
         nmap --script-help=<script_name> | <script_Category> 
 
+
 |カテゴリー|説明|
 |:----------|:---------|
 |auth|ターゲットに対して、資格情報の利用などして認証をバイパスする|
