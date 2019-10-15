@@ -13,7 +13,7 @@ Copyright: (C) 2019 しろくまの雑記帳
 * [スキャンモード](#scan)
 * [OS、バージョン検知](#os)
 * [スキャンタイミングオプション](#timing)
-
+* [アウトプットフォーマット](#format)
 
 ---
 
@@ -145,3 +145,48 @@ Copyright: (C) 2019 しろくまの雑記帳
         nmap -t5 192.168.1.1
 
 ---
+
+
+### <span id="format">アウトプットフォーマット</span>
+
+* ノーマルフォーマット
+      
+        nmap -oN 192.168.1.1 normal.file
+
+* XMLフォーマット
+
+        nmap -oX 192.168.1.1 xml.file
+
+* Grepableフォーマット
+
+        nmap -oG 192.168.1.1 grep.file
+
+* 全フォーマット出力
+
+        nmap -oA 192.168.1.1 file_name
+
+---
+
+### <span id="script">NSEスクリプトオプション</span>
+
+* デフォルトスクリプト
+
+        nmap -sC 192.168.1.1
+        nmap -sV sC 192.168.1.1
+
+* one script
+
+        nmap --script=<script_name> | <script_Category> | <script_dir> 192.168.1.1
+        (コンマで区切れば複数のスクリプトを選択できる。)
+
+* ワイルドカードを使う
+
+        nmap --script=<script_name.*> 192.168.1.1
+
+* スクリプトヘルプ
+
+        nmap --script-help=<script_name> | <script_Category> 
+
+|カテゴリー|説明|
+|:----------|:---------|
+|auth|ターゲットに対して、資格情報の利用などして認証をバイパスする|
