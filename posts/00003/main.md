@@ -48,4 +48,5 @@ Dockerはインストール済みとします。
 1. DockerでDVWAを構築する。
 
 * まずはイメージの検索
+
         docker search web-dvwa
