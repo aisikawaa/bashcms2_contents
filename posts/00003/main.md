@@ -54,7 +54,7 @@ Dockerはインストール済みとします。
 
         docker run -p 80:80 vulnerbles/web-dvwa
 
-イメージが起動したら、ブラウザを立ち上げ`localhost/setup.php`にアクセス。  
+イメージが起動したら、ブラウザを立ち上げ`"localhost/setup.php"`にアクセス。  
 データベースの作成/リセットボタンを押す。
 データベースが作成されたら、ログインして使用開始。
 
@@ -70,10 +70,7 @@ DVWAを構築したときと同じく、pullしてrun
 
         docker run -p 80:80 szsecurity/mutillidae
 
-```
-localhost/<port>
-```
-でアクセス。
+`"localhost/<port>"`でアクセス。
 データベースをリセットして準備完了。
 
 ---
