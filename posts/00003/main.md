@@ -19,7 +19,6 @@ ipusiron氏の「ハッキング・ラボのつくりかた」の環境構築に
 * 環境構築にかかる時間を節約できそう。
 * Dockerに慣れる。
   
-といったところですな。
 
 今回はホストに攻撃役を演じてもらい、やられ役をDockerで構築する方向でやってみます。
 個人的には、中古のラップトップを用意して、そこにKaliとかParrotとかBlackArchとか好きな
@@ -38,15 +37,57 @@ OSインストールは別ページにて書こうと思います。
 
 * マシン
     * Levono Thinkpad T430
-    * i7-3632QM
-    * RAM 16GB
+    * CPU:i7-3632QM
+    * RAM:16GB
 
 ### 手順
 
 Dockerはインストール済みとします。
 
-1. DockerでDVWAを構築する。
+1. DVWAを構築する。
 
-* まずはイメージの検索
+* イメージをプル
 
-        docker search web-dvwa
+        docker pull vulnerbles/web-dvwa
+
+* イメージを起動
+
+        docker run -p 80:80 vulnerbles/web-dvwa
+
+イメージが起動したら、ブラウザを立ち上げ`localhost/setup.php`にアクセス。  
+データベースの作成/リセットボタンを押す。
+データベースが作成されたら、ログインして使用開始。
+
+2. Mutillidaeの構築
+
+DVWAを構築したときと同じく、pullしてrun
+
+* イメージをプル
+
+        docker pull szsecurity/mutillidae
+
+* イメージを起動
+
+        docker run -p 80:80 szsecurity/mutillidae
+
+`localhost/<port>`でアクセス。
+データベースをリセットして準備完了。
+
+---
+
+こんな調子でいろんな環境が試せます。
+以下、イメージリスト
+
+* raeseba/bwapp
+* webgoat/webgoat-7.1
+* webgoat/webgoat-8.0
+* citizentig/nowasp
+* bkimminich/juice-shop
+* ismisepaul/securityshepherd
+* wpscanteam/vulnerbleworpress
+* opendns/security-ninjas
+* eystsen/altoro
+
+
+
+
