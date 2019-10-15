@@ -14,6 +14,7 @@ Copyright: (C) 2019 しろくまの雑記帳
 * [OS、バージョン検知](#os)
 * [スキャンタイミングオプション](#timing)
 * [アウトプットフォーマット](#format)
+* [スクリプトオプション](#script)
 
 ---
 
@@ -176,7 +177,7 @@ Copyright: (C) 2019 しろくまの雑記帳
 
 * one script
 
-        nmap --script=<script_name> | <script_Category> | <script_dir> 192.168.1.1
+        nmap --script=<script_name> | <script_category> | <script_dir> 192.168.1.1
         (コンマで区切れば複数のスクリプトを選択できる。)
 
 * ワイルドカードを使う
@@ -185,8 +186,10 @@ Copyright: (C) 2019 しろくまの雑記帳
 
 * スクリプトヘルプ
 
-        nmap --script-help=<script_name> | <script_Category> 
+        nmap --script-help=<script_name> | <script_category> 
 
+
+* スクリプトカテゴリーの補足情報
 
 |カテゴリー|説明|
 |:----------|:---------|
