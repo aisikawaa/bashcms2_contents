@@ -5,6 +5,8 @@ sitesubtitle: '個人的な備忘録です。'
 links:
 - text: 'このサイトについて'
   href: '/?page=about'
+- text: '最新'
+  href: '/?post'
 - text: 'メニュー'
   href: './'
   sublinks:
