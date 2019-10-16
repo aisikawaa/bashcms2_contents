@@ -92,7 +92,7 @@ DVWAを構築したときと同じく、pullしてrun
 * opendns/security-ninjas
 * eystsen/altoro
 
-適宜`docker search`で検索。
+適宜`"docker search"`で検索。
 気に入ったイメージはGithubで検索してリポジトリをフォークしておいたほうがいいかも。
 
 
