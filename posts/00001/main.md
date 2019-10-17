@@ -192,6 +192,7 @@ Nmap奥が深いのでメモ。
 
         nmap --script-help=<script_name> | <script_category> 
 
+スクリプトの詳細については[NSEスクリプトについて](/?post=00004)を参照。
 
 ---
 
