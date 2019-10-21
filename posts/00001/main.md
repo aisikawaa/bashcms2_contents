@@ -96,7 +96,7 @@ Nmap奥が深いのでメモ。
 
         namp -Pn 192.168.1.1
 
-* Host Discovery
+* Host Discovery(ポートスキャンはしない)
 
         nmap -sn 192.168.1.1
         (CIDR表記でネットワーク帯スキャン可)
@@ -196,3 +196,20 @@ Nmap奥が深いのでメモ。
 
 ---
 
+# <span id="evasion">ファイヤーウォール/IDSの回避となりすまし</span>
+
+* パケットの断片化
+
+        nmap -f 192.168.1.1
+
+* オフセットサイズの指定
+
+        nmap -ntu <num> 192.168.1.1
+
+* 囮を使う
+
+        namp -D decoy_ip_a, decoy_ip_b, own_ip, decoy_ip_c 192.168.1.1
+
+* なりすまし
+
+        namp -S <ip_addr> 192.168.1.1
