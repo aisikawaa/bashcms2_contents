@@ -39,8 +39,14 @@ Copyright: (C) 2019 しろくまの雑記帳
 解法
 
 まずは、ファイルをダウンロードして実行する。
-MacOSでは動かなかった。(こういうファイルは実機上ではなく、仮想マシン上で動かしたほうが良い。今回はちょっと横着した。)
+MacOSでは動かなかった。
+(こういうファイルは実機上ではなく、仮想マシン上で動かしたほうが良い。今回はちょっと横着した。)
+
 fileコマンドで調べると
 
-        exec_me: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.24, BuildID[sha1]=663a3e0e5a079fddd0de92474688cd6812d3b550, not stripped
+        exec_me: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, 
+        for GNU/Linux 2.6.24, BuildID[sha1]=663a3e0e5a079fddd0de92474688cd6812d3b550, not stripped
+
+と出た。
+というわけで、ParrotOSがインストールされた別のマシンで実行してフラグゲット。
 
