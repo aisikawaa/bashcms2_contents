@@ -113,3 +113,40 @@ file
 ダウンロードしたファイルを`file`コマンドで調べると`misc100.zip: OpenDocumen`と出るので、OpenofficeかLibreOfficeで開けばOK。
 
 
+### 七問目 Block Cipher ジャンル・Crypto
+
+---
+
+#### 問題
+
+与えられたC言語のソースコードを読み解いて復号してフラグを手にれましょう。
+
+暗号文：cpaw{ruoYced_ehpigniriks_i_llrg_stae}
+
+crypto100.c
+
+#### 解法
+
+ソースコードを見ると、プログラムの実行には2つの引数が必要であることが確認できる。
+1つ目の引数は解読前のフラグ、2つ目の引数はキーとなる任意の数字。
+2つ目の引数を1から順に試してもいいが、ソースコードを書き換えたほうがCTFっぽいかなと。
+
+      #include <stdio.h>
+      #include <stdlib.h>
+      #include <string.h>
+      int main(int argc, char* argv[]){
+        int i;
+        int j;
+        int key;
+        const char* flag = argv[1];
+        for(key = 0; key < 30; ++key) {
+        printf("cpaw{");
+        for(i = key - 1; i <= strlen(flag); i+=key) for(j = i; j>= i - key + 1; j--) printf("%c", flag[j]);
+        printf("}\n");
+        }
+        return 0;
+      }
+
+変数keyの文字列型から数値型への変換を削除。
+3つのprintfをfor文で包む。(反復回数は暗号文の文字数分くらいで。)
+最後のprintfに改行を入れておくと出力結果が見やすい。
