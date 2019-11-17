@@ -35,7 +35,7 @@ BlackArchとか好きなディストリビューションをいれておく。
 
 ### 手順
 
-Dockerはインストール済みとします。
+Dockerはインストール済みとして。
 
 1. DVWAを構築する。
 
@@ -68,7 +68,7 @@ DVWAを構築したときと同じく、pullしてrun
 
 ---
 
-こんな調子でいろんな環境が試せます。
+こんな調子でいろんな環境が試せる。
 以下、イメージリスト
 
 * raeseba/bwapp
@@ -83,6 +83,18 @@ DVWAを構築したときと同じく、pullしてrun
 * eystsen/altoro
 
 適宜`"docker search"`で検索。
+
+---
+
+### ペンテスト環境を管理するスクリプト
+
+```
+    git clone https://github.com/eystsen/pentestlab.git
+    cd pentestlab
+    ./pentestlab.sh --help
+
+```
+作者に感謝!!
 
 ### 参照元
 
