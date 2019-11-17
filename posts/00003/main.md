@@ -86,4 +86,4 @@ DVWAを構築したときと同じく、pullしてrun
 
 ### 参照元
 
-* [Web Application Pentest Lab setup Using Docker](https://www.hackingarticles.in/web-application-pentest-lab-setup-using-docker/)@Hacking Articles
+* [Web Application Pentest Lab setup Using Docker](https://www.hackingarticles.in/web-application-pentest-lab-setup-using-docker/)@hackingarticles.in
