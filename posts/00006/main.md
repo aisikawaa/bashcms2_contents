@@ -166,7 +166,7 @@ objdumpやstringコマンドでファイルを覗く。
 
 ### 九問目 Baby's SQLi −Stage 1− ジャンル・Web
 
-−−−
+---
 
 ### 問題
 
