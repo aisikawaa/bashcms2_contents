@@ -10,8 +10,6 @@ links:
   sublinks:
   - text:  'htb'
     href: '/?page=htb'
-  - text: '工事中'
-    href: './'
 sociallinks:
 - icon: 'fa-twitter-square'
   href: 'https://twitter.com/aswzjd'
