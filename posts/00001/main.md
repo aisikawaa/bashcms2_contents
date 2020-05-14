@@ -1,6 +1,6 @@
 ---
 Keywords: nmap, cheatsheet
-Copyright: (C) 2019 しろくまの雑記帳
+Copyright: (C) 2020 しろくまの雑記帳
 ---
 
 # Nmapチートシート  
