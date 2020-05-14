@@ -6,9 +6,9 @@ links:
 - text: 'このサイトについて'
   href: '/?page=about'
 - text: 'メニュー'
-  href: './'
+  href: ''
   sublinks:
-  - text: 'htb'
+  - text:  'htb'
     href: '/?page=htb'
   - text: '工事中'
     href: './'
