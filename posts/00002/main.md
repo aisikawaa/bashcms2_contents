@@ -1,6 +1,6 @@
 ---
 Keywords: nmap
-Copyright: (C) 2019 Atsushi Ishikawa
+Copyright: (C) 2020 Atsushi Ishikawa
 ---
 
 # Nmap オプションの意味
