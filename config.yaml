@@ -5,11 +5,6 @@ sitesubtitle: '個人的な備忘録です。'
 links:
 - text: 'このサイトについて'
   href: '/?page=about'
-- text: 'メニュー'
-  href: ''
-  sublinks:
-  - text:  'htb'
-    href: '/?page=htb'
 sociallinks:
 - icon: 'fa-twitter-square'
   href: 'https://twitter.com/aswzjd'
